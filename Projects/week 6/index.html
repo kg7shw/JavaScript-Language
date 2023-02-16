@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List App</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-div">
+      <!-- title -->
+      <div class="title">
+        <h1 class="title">Shopping List</h1>
+      </div>
+      <!-- form -->
+      <div class="form-div">
+        <form class="grocery-main-form">
+          <input type="text" id="grocery" placeholder="e.g. Milk" />
+          <button type="submit" class="submit-btn">submit</button>
+        </form>
+      </div>
+      <!-- list -->
+      <div class="item-list-div">
+        <ul class="grocery-list"></ul>
+      </div>
+
+      <!-- Clear List btn-->
+      <div class="clear-list-button-div">
+        <button id="clear-list-btn">Clear List</button>
+      </div>
+
+      <!-- Add default list btn -->
+      <div class="add-default-button-div">
+        <button id="add-default-list-btn">Add Default List</button>
+      </div>
+    </div>
+  </body>
+</html>

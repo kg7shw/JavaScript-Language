@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shopping List App</title>
+    <script src="project.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <!-- title -->
+    <div class="title">
+      <h1>Shopping List</h1>
+    </div>
+    <div class="app-div">
+      <!-- form -->
+      <div class="form-div">
+        <form class="grocery-main-form">
+          <input type="text" id="grocery" placeholder="e.g. Milk" />
+          <button type="submit" class="submit-btn">Add</button>
+        </form>
+      </div>
+      <!-- list -->
+      <div class="item-list-div">
+        <ul class="grocery-list"></ul>
+      </div>
+
+      <!-- Clear List btn-->
+      <div class="clear-list-button-div">
+        <button id="clear-list-btn">Clear List</button>
+      </div>
+
+      <!-- Add default list btn -->
+      <div class="add-default-button-div">
+        <button id="add-default-list-btn">Add Default List</button>
+      </div>
+    </div>
+  </body>
+</html>

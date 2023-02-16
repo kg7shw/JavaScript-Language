@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery List App</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/eee7f7bc39.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="app-div">
+      <!-- title -->
+      <div class="title">
+        <h1 class="title">Grocery List</h1>
+      </div>
+      <!-- form -->
+      <div class="form-div">
+        <form class="grocery-main-form">
+          <input type="text" id="grocery" placeholder="e.g. Milk" />
+          <button type="submit" class="btn submit-btn">submit</button>
+        </form>
+      </div>
+      <!-- list -->
+      <div class="item-list-div">
+        <ul class="grocery-list"></ul>
+      </div>
+
+      <div class="btn-container">
+        <!-- Add default list btn -->
+        <button id="add-default-list-btn" class="btn add-list-btn">
+          Add Default List
+        </button>
+        <!-- Clear List btn-->
+        <button id="clear-list-btn" class="btn clear-list-btn">
+          Clear List
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

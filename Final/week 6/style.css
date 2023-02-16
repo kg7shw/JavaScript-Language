@@ -1,0 +1,111 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+/* App Title */
+.title {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 3rem;
+}
+
+/* App Container */
+.app-div {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: whitesmoke;
+}
+
+/* Main form */
+.form-div {
+  margin-bottom: 20px;
+}
+
+.grocery-main-form {
+  display: flex;
+}
+
+#grocery {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 25px;
+}
+
+/* Grocery List */
+.item-list-div {
+  border-radius: 5px;
+}
+
+.grocery-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 25px;
+}
+
+.grocery-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #2e86ab;
+  color: #fff;
+  margin-left: 10px;
+}
+.delete-btn {
+  background-color: white;
+  color: #c93329;
+}
+
+#clear-list-btn {
+  background-color: #c93329;
+  color: #fff;
+}
+
+#add-default-list-btn {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2e86ab;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  font-size: 60px;
+}
